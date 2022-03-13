@@ -1,0 +1,43 @@
+.root {
+    -fx-background-color: #000000;
+}
+
+.button {
+    -fx-background-color: #900000;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 13;
+}
+
+.button:hover {
+    -fx-background-color: #ee2400;
+}
+.button:selected{
+    -fx-background-color: #ee3c1d;
+}
+
+.label {
+    -fx-font-size: 16;
+    -fx-font-family: "Lucida Console";
+    -fx-text-fill: #FFFFFF;
+}
+
+.menuBar {
+    -fx-background-color: #343131;
+    -fx-fill-width: 100%;
+}
+
+.menuItem {
+    -fx-background-color: #494444;
+}
+
+.color-picker, .choice-box {
+    -fx-background-color: #494444;
+}
+
+.menu-item {
+    -fx-background-color: #494444;
+}
+
+#myProgressBar {
+    -fx-accent: #f61e1e;
+}
